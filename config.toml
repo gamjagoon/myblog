@@ -1,7 +1,7 @@
 DefaultContentLanguage = "en"
 author = "Kim Min Jae"
-baseURL = "https://gohugo.io"
-copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+baseURL = "https://gamjagoon.github.io/asdf"
+copyright = "Copyright © 2008–2021, Steve Francia and the Hugo Authors; all rights reserved."
 disqusShortname = "minjae-blog-1"
 enableEmoji = true
 enableInlineShortcodes = true
@@ -11,19 +11,15 @@ languageCode = "en"
 paginate = 3
 summaryLength = 20
 theme = "monopriv_mj"
-title = "Hugo Themes"
+title = "Sweet Potato"
 [params]
-about = "A privacy focused minimal bootstrap theme"
+about = "Embedded systems and verilog designs"
+analytics = false
+disqus = true
 email = "rlaalswo201@gmail.com"
 github = "https://github.com/gamjagoon"
-# site meta description
 metadesc = "A simple privacy oriented bootstrap hugo blog"
-# site meta keywords
-metakeys = "hugo, simple, minimal, bootstrap, blog"
-# enable/disable disqus comments 
-disqus = false
-# enable/disable google analytics 
-analytics = false
+metakeys = "verilog, FPGA, Python, AI, cryptography"
 
 [params.search] # Site search powered by DuckDuckGo
 enabled = true
@@ -31,7 +27,7 @@ placeholder = "Site Search"
 
 [params.hero]
 enabled = true
-img = "img/logo.png"
+img = "img/logo2.jpg"
 
 [menu]
 

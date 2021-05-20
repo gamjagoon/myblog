@@ -2,6 +2,11 @@
 author: Hugo Authors
 title: Math Typesetting
 date: 2019-03-08
+tags : [
+    "markdown",
+    "css",
+    "html",
+]
 description: A brief guide to setup KaTeX
 math: true
 ---

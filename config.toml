@@ -1,0 +1,74 @@
+DefaultContentLanguage = "en"
+author = "Kim Min Jae"
+baseURL = "https://gohugo.io"
+copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+disqusShortname = "minjae-blog-1"
+enableEmoji = true
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+ignoreErrors = ["error-remote-getjson"]
+languageCode = "en"
+paginate = 3
+summaryLength = 20
+theme = "monopriv_mj"
+title = "Hugo Themes"
+[params]
+about = "A privacy focused minimal bootstrap theme"
+email = "rlaalswo201@gmail.com"
+github = "https://github.com/gamjagoon"
+# site meta description
+metadesc = "A simple privacy oriented bootstrap hugo blog"
+# site meta keywords
+metakeys = "hugo, simple, minimal, bootstrap, blog"
+# enable/disable disqus comments 
+disqus = false
+# enable/disable google analytics 
+analytics = false
+
+[params.search] # Site search powered by DuckDuckGo
+enabled = true
+placeholder = "Site Search"
+
+[params.hero]
+enabled = true
+img = "img/logo.png"
+
+[menu]
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 10
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+
+[privacy]
+
+[privacy.vimeo]
+disabled = false
+simple = true
+
+[privacy.twitter]
+disabled = false
+enableDNT = true
+simple = true
+
+[privacy.instagram]
+disabled = false
+simple = true
+
+[privacy.youtube]
+disabled = false
+privacyEnhanced = true
+
+[services]
+
+[services.instagram]
+disableInlineCSS = true
+
+[services.twitter]
+disableInlineCSS = true

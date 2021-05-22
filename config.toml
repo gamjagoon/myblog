@@ -18,6 +18,7 @@ analytics = false
 disqus = true
 email = "rlaalswo201@gmail.com"
 github = "https://github.com/gamjagoon"
+Islab = "http://infosec.pusan.ac.kr/"
 metadesc = "A simple privacy oriented bootstrap hugo blog"
 metakeys = "verilog, FPGA, Python, AI, cryptography"
 

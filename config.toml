@@ -13,12 +13,12 @@ summaryLength = 20
 theme = "monopriv_mj"
 title = "Sweet Potato"
 [params]
+Islab = "http://infosec.pusan.ac.kr/"
 about = "Embedded systems and verilog designs"
 analytics = false
 disqus = true
 email = "rlaalswo201@gmail.com"
 github = "https://github.com/gamjagoon"
-Islab = "http://infosec.pusan.ac.kr/"
 metadesc = "A simple privacy oriented bootstrap hugo blog"
 metakeys = "verilog, FPGA, Python, AI, cryptography"
 
@@ -69,3 +69,8 @@ disableInlineCSS = true
 
 [services.twitter]
 disableInlineCSS = true
+
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.5

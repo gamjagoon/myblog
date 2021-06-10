@@ -21,7 +21,7 @@ series : ["system security"]
 #### **ARM TrustZone**   
 - 인터넷에서 Digital Rights Management(DRM)을 보드에 적용한 개념
 - 기본 개념은 시스템을 2개의 공간으로 분리함   
-{{- $image := resources.Get "img/Trust01.jpg" -}}
+{{ $image := .Scratch.Get "img/Trust.jpg" }}
 - 각공간은 독립된 메모리 공간을 가지고 있음
 - Peripheral devices
   - Screen

@@ -1,5 +1,5 @@
 ---
-title : "Introduce me"
+title : "about"
 description : "intorduce myself"
 date : "2021-06-11"
 aliases : ["about-us", "contact","verilog","security"]

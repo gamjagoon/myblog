@@ -42,7 +42,7 @@ series : ["system security"]
   - user application과 같은 Privilege level을 가짐
 
 
-    ![Enclave](/img/SGX_01.jpg)
+    ![Enclave](img/SGX_01.jpg)
     >       <SGX 내부>
 
 **SGX 수행과정**   
@@ -73,6 +73,6 @@ series : ["system security"]
   - Load : hash 이후 동작
   - Store : hash update가 필요함
 
-    ![Merkle tree](/img/SGX_02.jpg)
+    ![Merkle tree](img/SGX_02.jpg)
     >       <Merkle tree>
 

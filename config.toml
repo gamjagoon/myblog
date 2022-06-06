@@ -1,6 +1,6 @@
 DefaultContentLanguage = "en"
 author = "Kim Min Jae"
-baseURL = "https://gamjagoon.github.io/asdf"
+baseURL = "https://gamjagoon.github.io"
 copyright = "Copyright © 2008–2021, Steve Francia and the Hugo Authors; all rights reserved."
 disqusShortname = "minjae-blog-1"
 enableEmoji = true

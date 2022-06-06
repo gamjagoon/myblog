@@ -42,7 +42,7 @@ series : ["system security"]
   - user application과 같은 Privilege level을 가짐
 
 
-    ![Enclave](img/SGX_01.jpg)
+    ![Enclave]({{ $image := .Resources.GetMatch "SGx_01.jpg}})
     >       <SGX 내부>
 
 **SGX 수행과정**   

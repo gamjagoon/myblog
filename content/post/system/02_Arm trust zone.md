@@ -21,7 +21,7 @@ series : ["system security"]
 #### **ARM TrustZone**   
 - 인터넷에서 Digital Rights Management(DRM)을 보드에 적용한 개념
 - 기본 개념은 시스템을 2개의 공간으로 분리함   
-![](/img/Trust01.jpg)
+![](https://gamjagoon.github.io/asdf/img/Trust01.jpg)
 - 각공간은 독립된 메모리 공간을 가지고 있음
 - Peripheral devices
   - Screen
@@ -34,7 +34,7 @@ series : ["system security"]
 - 프로세서의 core는 프로그램을 다양한 권한으로 실행함(intel : Ring, ARM : EL)
 - ARM의 경우 EL0, EL1, EL2, EL3으로 설정하여
 - 높을수록 높은 권한을 가짐   
-![TrustZone](img/Trust02.jpg)
+![TrustZone](https://gamjagoon.github.io/asdfimg/Trust02.jpg)
 - Secure World페이지 테이블의 접근 권한을 설정하는 것이 SCR.NS 레지스터임 이는 EL3에서만 제어 가능함
 
 #### **Design choices w.r.t. threat models**   

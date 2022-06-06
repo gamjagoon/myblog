@@ -26,7 +26,10 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.HUGO_TOKEN }}
           publish_dir: ./public
+          user_name: gamjagoon
+          user_email: rlaalswo201@gmail.com
+          publish_branch: master
+        #   cname: example.com

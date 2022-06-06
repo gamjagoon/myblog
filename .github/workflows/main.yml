@@ -28,7 +28,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.HUGO_TOKEN }}
-          external_repository: gamjagoon/gamjagoon.github.io
           publish_dir: ./public
           user_name: gamjagoon
           user_email: rlaalswo201@gmail.com

@@ -1,0 +1,47 @@
+{{define "main"}}
+<section class="container mt-3">
+    <h2 class="text-center">{{.Title}}</h2>
+    {{if eq .Kind "taxonomyTerm"}}
+    {{range $key, $value := .Data.Terms.Alphabetical}}
+    <span class='badge badge-dark'><a class='text-white' href='{{ "tags/" | absURL }}{{ $value.Name | lower }}'>{{
+            $value.Name }} ({{.Count }})</a></span>
+    {{end}}
+    {{else}}
+    <div class="row">
+
+        {{if eq .Section "tags"}}
+        {{range .Pages}}
+        <div class="col-md-5 m-3">
+            <div class="card-body">
+                {{ if eq .Kind "term" }}
+                <h5 class="font-weight-bold card-title"><a href="{{.Permalink}}" class="card-link">{{.Title}}</a>
+                </h5>
+                {{else}}
+                <h5 class="font-weight-bold card-title">{{.Title}}</h5>
+                <h6 class="text-monospace card-subtitle mb-2 text-muted">{{ .PublishDate.Format "January 2, 2006" }}
+                </h6>
+                <small class="card-text text-monospace">{{.Summary}}</small>
+                <a href="{{.Permalink}}" class="card-link">Read More...</a>
+                {{end}}
+            </div>
+        </div>
+        {{end}}
+        {{end}}
+        
+        {{if eq .Section "post"}}
+        {{range .Pages}}
+        <div class="col-md-5 m-3">
+            <h6><a href="{{.Permalink}}">{{ .Title }}</a></h6>
+            <small class="text-monospace text-secondary">{{.PublishDate.Format "January 2, 2006"}} |
+                {{.ReadingTime}}
+                minute read</small>
+        </div>
+        {{end}}
+        {{end}}
+    </div>
+    {{end }}
+</section>
+{{if .Site.Params.search.enabled}}
+{{partial "search.html" .}}
+{{end}}
+{{end}}

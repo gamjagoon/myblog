@@ -32,7 +32,7 @@ series : ["system security"]
 
 **기본적인 구조**   
 
-![Basic](https://gamjagoon.github.io/asdf/img/Basic.jpg)   
+![Basic](https://gamjagoon.github.io/img/Basic.jpg)   
 
     Verifier : 서버 관리자  
     Prover : IoT 장비

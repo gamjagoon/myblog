@@ -21,7 +21,7 @@ series : ["system security"]
       -  Private Peripheral Bus:내부와 외부의 프로세서의 접근을 제공하는 메모리 영역
       -  8,12,16 개의 regions(영역)을 제공함
       -  Base & size 에따른 permission이 다름   
-    ![MPU](https://gamjagoon.github.io/asdf/img/MPU.jpg)
+    ![MPU](/img/MPU.jpg)
 - 메모리, 하드웨어 리소스가 제한적임
 - 시스템의 보안을 위한 2가지 방향이 있음
   1. Remote Attestation
@@ -32,7 +32,7 @@ series : ["system security"]
 
 **기본적인 구조**   
 
-![Basic](https://gamjagoon.github.io/img/Basic.jpg)   
+![Basic](/img/Basic.jpg)   
 
     Verifier : 서버 관리자  
     Prover : IoT 장비

@@ -1,5 +1,5 @@
 ---
-title: "RISC-V MicroArchitecture"
+title: "RISC-V ISA_1"
 date: 2022-07-01T17:49:06+09:00
 author : "Kim Minjae"
 description : ""

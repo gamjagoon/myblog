@@ -6,10 +6,6 @@ description : ""
 tags : [
     "",
 ]
-categories : [
-    "themes",
-    "syntax",
-]
 series : ["Themes Guide"]
 ---
 

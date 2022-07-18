@@ -1,4 +1,0 @@
-[submodule "public"]
-	path = public
-	url = git@github.com:gamjagoon/gamjagoon.github.io.git
-	branch = main

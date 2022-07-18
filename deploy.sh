@@ -2,9 +2,9 @@ cd public
 git pull origin main
 cd ..
 hugo --minify
-git add .
 
 cd public
+git add .
 msg="rebuilding site `date`"
 if [ $# -eq 1 ]
   then msg="$1"
